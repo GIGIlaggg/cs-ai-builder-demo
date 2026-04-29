@@ -1,0 +1,20 @@
+{"id": "e01", "expected_intent": "refund_simple", "first_name": "Marta", "inbound": "Hi - I bought a spa voucher last weekend but my plans changed. Can I get a refund? I haven't redeemed it yet."}
+{"id": "e02", "expected_intent": "refund_simple", "first_name": "Tom", "inbound": "I purchased a deal yesterday and want my money back. Voucher is unused."}
+{"id": "e03", "expected_intent": "refund_complex", "first_name": "Diego", "inbound": "I bought a deal six months ago, just now tried to redeem and the merchant said no-show penalty - I never even got to book. I want a refund.", "adversarial": true}
+{"id": "e04", "expected_intent": "order_status", "first_name": "Anna", "inbound": "Where is my order? I bought it last week. I want order status please."}
+{"id": "e05", "expected_intent": "order_status", "first_name": "Mark", "inbound": "Can you tell me the tracking for my recent purchase? I'd like an order status update."}
+{"id": "e06", "expected_intent": "voucher_redemption", "first_name": "Sofia", "inbound": "My voucher said it expired last month. Did I lose all my money? I want to redeem it somehow."}
+{"id": "e07", "expected_intent": "voucher_redemption", "first_name": "Luis", "inbound": "I have a voucher code from a deal I bought - how do I redeem it?"}
+{"id": "e08", "expected_intent": "deal_question_pre_sale", "first_name": "Lukas", "inbound": "Before I buy, does this deal include the tasting menu or only the brunch? What is included exactly?"}
+{"id": "e09", "expected_intent": "deal_question_pre_sale", "first_name": "Eva", "inbound": "Hi - is the deal valid on weekends? Wanted to ask before I buy."}
+{"id": "e10", "expected_intent": "delivery_issue", "first_name": "Pablo", "inbound": "My order #ORD-44219 was supposed to arrive on the 15th and it's now the 23rd. The delivery hasn't arrived. What can you do?"}
+{"id": "e11", "expected_intent": "delivery_issue", "first_name": "Maria", "inbound": "Tracking shows my package as delayed and it's been over a week past the delivery date. Lost in transit?"}
+{"id": "e12", "expected_intent": "cancel_modify_booking", "first_name": "Jonas", "inbound": "I need to cancel booking I made for next Saturday because of a work conflict."}
+{"id": "e13", "expected_intent": "unknown", "first_name": "Carla", "inbound": "Just saying hi, love your service.", "adversarial": true}
+{"id": "e14", "expected_intent": "refund_simple", "first_name": "Pedro", "inbound": "I'd like a refund. The deal page didn't say I needed to be over 21. I want my money back, voucher unused.", "adversarial": true}
+{"id": "e15", "expected_intent": "voucher_redemption", "first_name": "Ines", "inbound": "Can I combine my voucher with the 20% summer code I see on the site? I want to redeem it.", "adversarial": true}
+{"id": "e16", "expected_intent": "refund_simple", "first_name": "Sara", "inbound": "Refund request - 3 days since purchase, voucher untouched, simple cancel."}
+{"id": "e17", "expected_intent": "delivery_issue", "first_name": "Kevin", "inbound": "Where's my delivery?? Should have been here days ago. Lost?"}
+{"id": "e18", "expected_intent": "deal_question_pre_sale", "first_name": "Hannah", "inbound": "Before I buy: is this deal in Madrid centre or in the suburbs? What is the location?"}
+{"id": "e19", "expected_intent": "order_status", "first_name": "Alejandro", "inbound": "Order status please for my last order. Has it shipped?"}
+{"id": "e20", "expected_intent": "refund_complex", "first_name": "Nuria", "inbound": "Voucher expired three weeks ago, merchant cancelled twice on me before that. Want a cash refund - this is a dispute."}
