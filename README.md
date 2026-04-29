@@ -98,7 +98,7 @@ Without keys, the stub returns deterministic responses good enough to exercise t
 - 5 adversarial cases (off-policy refund requests, missing order, ambiguous intent)
 - 3 hallucination traps (questions where the KB has no answer — model should defer, not invent)
 
-CI runs the eval set on every PR and fails if hallucination rate > 5% or acceptable rate < 80%.
+CI runs the eval set on every PR and fails if hallucination rate > 5% or acceptable rate < 80%. The workflow lives at `ci.yml.staged` — `mv` it into `.github/workflows/ci.yml` once you push from a token with `workflow` scope.
 
 ## What this prototype is not
 
